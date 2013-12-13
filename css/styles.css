@@ -151,8 +151,7 @@ header nav {
         
 }
 
-header nav a:link,
-header nav a:visited {
+header nav a:link {
 		font-size: 1.25em;
         height: 64px;
         display: block;
@@ -164,11 +163,11 @@ header nav a:visited {
         width: 132px;
 }
 
-header nav a:hover, 
-header nav a:active {
+header nav a:hover {
 		color: #8ACAA9;
         margin-top: 10px;
 }
+
 
 .about li:nth-child(1), 
 .gallery li:nth-child(2),
@@ -347,7 +346,7 @@ img[src*=me] {
 }
 
 /*******************
- 	Gallery
+ 	Gallery page
 ********************/
 #footer img {
 	position: absolute;
@@ -390,4 +389,10 @@ img[src*=me] {
   transition: color .1s;
 }
 
+/*******************
+ 	Contact Page
+********************/
+#form {
+	position: absolute;
+}
 
