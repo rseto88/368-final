@@ -5,10 +5,10 @@
 *****************/
 @font-face {
     font-family: 'blackjack_regular_macroman';
-	src: url(black_jack-webfont.eot),
-		url(black_jack-webfont.svg) format('svg'),
-		url(black_jack-webfont.ttf) format('truetype'),
-		url(black_jack-webfont.woff) format('woff');
+	src: url(../../368-final-gh-pages/css/black_jack-webfont.eot) ,
+url(../../368-final-gh-pages/css/black_jack-webfont.svg) format('svg'),
+url(../../368-final-gh-pages/css/black_jack-webfont.ttf) format('truetype'),
+url(../../368-final-gh-pages/css/black_jack-webfont.woff) format('woff');
 	font-weight: normal;
     font-style: normal;
 }
@@ -22,14 +22,14 @@ a {
   LAYOUT & STRUCTURE 
 **********************/
 article {
-	background: url(../img/bg.jpg) repeat center;
+	background: url(../../368-final-gh-pages/img/bg.jpg) repeat center;
 	margin-top: 124px;
 	padding: 64px 24px 120px 24px;
 	position: relative;
 }
 
 aside {
-	background: url(../img/bg.jpg) repeat center;
+	background: url(../../368-final-gh-pages/img/bg.jpg) repeat center;
 	margin-top: 124px;
 	padding: 64px 24px 120px 24px;
 	position: relative;
@@ -151,8 +151,7 @@ header nav {
         
 }
 
-header nav a:link,
-header nav a:visited {
+header nav a:link {
 		font-size: 1.25em;
         height: 64px;
         display: block;
@@ -164,11 +163,11 @@ header nav a:visited {
         width: 132px;
 }
 
-header nav a:hover, 
-header nav a:active {
+header nav a:hover {
 		color: #8ACAA9;
         margin-top: 10px;
 }
+
 
 .about li:nth-child(1), 
 .gallery li:nth-child(2),
@@ -180,28 +179,28 @@ header nav a:active {
  NAV: Sprite Map 
 *****************/
 header nav li:nth-child(1) a:link {
-     background: url(../img/sprite-map.png) no-repeat -9px 6px;
+     background: url(../../368-final-gh-pages/img/sprite-map.png) no-repeat -9px 6px;
 }
 
 header nav li:nth-child(1) a:hover {
-     background: url(../img/sprite-map.png) no-repeat -9px -71px;
+     background: url(../../368-final-gh-pages/img/sprite-map.png) no-repeat -9px -71px;
 }
 
 header nav li:nth-child(2) a:link {
-    background: url(../img/sprite-map.png) no-repeat -206px 9px;
+    background: url(../../368-final-gh-pages/img/sprite-map.png) no-repeat -206px 9px;
 }
 
 header nav li:nth-child(2) a:hover {
-    background: url(../img/sprite-map.png) no-repeat -206px -71px;
+    background: url(../../368-final-gh-pages/img/sprite-map.png) no-repeat -206px -71px;
 }
 
 header nav li:nth-child(3) a:link {
-    background: url(../img/sprite-map.png) no-repeat -398px 4px;
+    background: url(../../368-final-gh-pages/img/sprite-map.png) no-repeat -398px 4px;
 	padding-left: 16px;
 }
 
 header nav li:nth-child(3) a:hover {
-    background: url(../img/sprite-map.png) no-repeat -398px -71px;
+    background: url(../../368-final-gh-pages/img/sprite-map.png) no-repeat -398px -71px;
 	padding-left: 16px;
 }
 
@@ -238,27 +237,27 @@ footer li:nth-child(1) {
 ********************/
 
 footer li:nth-child(1) a:link {
-     background: url(../img/sprite-map2.png) no-repeat 0px 0px;
+     background: url(../../368-final-gh-pages/img/sprite-map2.png) no-repeat 0px 0px;
 }
 
 footer li:nth-child(1) a:hover {
-     background:url(../img/sprite-map2.png) no-repeat 0px -100px;
+     background:url(../../368-final-gh-pages/img/sprite-map2.png) no-repeat 0px -100px;
 }
 
 footer li:nth-child(2) a:link {
-    background: url(../img/sprite-map2.png) no-repeat -97px 0px;
+    background: url(../../368-final-gh-pages/img/sprite-map2.png) no-repeat -97px 0px;
 }
 
 footer li:nth-child(2) a:hover {
-    background: url(../img/sprite-map2.png) no-repeat -97px -100px;
+    background: url(../../368-final-gh-pages/img/sprite-map2.png) no-repeat -97px -100px;
 }
 
 footer li:nth-child(3) a:link {
-    background: url(../img/sprite-map2.png) no-repeat -198px 0px;
+    background: url(../../368-final-gh-pages/img/sprite-map2.png) no-repeat -198px 0px;
 }
 
 footer li:nth-child(3) a:hover {
-    background: url(../img/sprite-map2.png) no-repeat -198px -100px;
+    background: url(../../368-final-gh-pages/img/sprite-map2.png) no-repeat -198px -100px;
 }
 
 /*******************
@@ -347,7 +346,7 @@ img[src*=me] {
 }
 
 /*******************
- 	Gallery
+ 	Gallery page
 ********************/
 #footer img {
 	position: absolute;
@@ -390,4 +389,72 @@ img[src*=me] {
   transition: color .1s;
 }
 
+/*******************
+ 	Contact Page
+********************/
+#form {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
 
+#form p {
+	color: white;
+}
+
+.form h1 {
+	top: 10px;
+	left: 77px;
+	position: absolute;
+}
+
+
+.form h1,
+.call h1,
+.email h1 {
+	color: white;
+	font-family: 'blackjack_regular_macroman', script;
+	font-size: 3em;
+}
+
+.form {
+	background: url(../../368-final-gh-pages/img/bg.jpg) repeat center;
+	margin-top: 124px;
+	padding: 64px 24px 120px 24px;
+	position: relative;
+}
+
+.call h1 {
+	position: absolute;
+	top: 10px;
+	left: 412px;
+}
+
+.call h2 {
+	color: white;
+	position: absolute;
+	top: 103px;
+	left: 409px;
+}
+
+
+.email h1 {
+	position: absolute;
+	left: 692px;
+}
+
+.email h2 {
+	color: white;
+	position: absolute;
+	top: 102px;
+	right: 14px;
+}
+
+.collapse {
+	margin: 161px;
+}
+
+.footer2 img {
+	position: absolute;
+	top: 555px;
+}
