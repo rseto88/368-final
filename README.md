@@ -17,3 +17,4 @@ My objective for my website:
 ##Attribution
 
 * [CodePen](http://codepen.io)
+* [blog.spoongraphics](http://blog.spoongraphics.co.uk/tutorials/create-a-retro-triangular-pattern-design-in-illustrator)
