@@ -394,5 +394,67 @@ img[src*=me] {
 ********************/
 #form {
 	position: absolute;
+	top: 100px;
+	left: 50px;
 }
 
+#form p {
+	color: white;
+}
+
+.form h1 {
+	top: 10px;
+	left: 77px;
+	position: absolute;
+}
+
+
+.form h1,
+.call h1,
+.email h1 {
+	color: white;
+	font-family: 'blackjack_regular_macroman', script;
+	font-size: 3em;
+}
+
+.form {
+	background: url(../img/bg.jpg) repeat center;
+	margin-top: 124px;
+	padding: 64px 24px 120px 24px;
+	position: relative;
+}
+
+.call h1 {
+	position: absolute;
+	top: 10px;
+	left: 412px;
+}
+
+.call h2 {
+	color: white;
+	position: absolute;
+	top: 103px;
+	left: 409px;
+}
+
+
+.email h1 {
+	position: absolute;
+	left: 692px;
+}
+
+.email h2 {
+	color: white;
+	position: absolute;
+	top: 102px;
+	right: 14px;
+}
+
+.collapse {
+	margin: 161px;
+}
+
+.footer2 img {
+	position: absolute;
+	top: 555px;
+}
